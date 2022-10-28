@@ -1,0 +1,163 @@
+* { margin: 0; padding: 0; border: none; font-weight: bold;}
+
+body, html {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*
+  bcz 16px= 100%= 1rem
+  so 90px=562.5%=5.625rem
+  */
+  color: #66BFBF;
+  padding-top: 50px;
+  font-family: 'Sacramento', cursive;
+}
+
+.profile-description {
+  margin: 10px auto;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.btn {
+  margin-top: 100px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c8c;
+  text-decoration: none;
+}
+
+.top-container {
+  padding: 20px;
+  background-color: #E4F9F6;
+}
+
+.medium-container {
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container {
+  margin: 20px 0 20px 0;
+  background-color: #8bcccc;
+  height: 200px;
+  width: 100%;
+}
+
+.links {
+  margin: 20px;
+  padding: 30px;
+}
+
+.links-1 {
+  position: relative;
+  top: 20px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.links-2 {
+  margin-left: 20%;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  width: 5%;
+  float: left;
+}
+
+.copyright {
+  margin-top: 300px;
+  padding: 90px;
+  clear: both;
+  color: azure;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 250px;
+}
+
+.profile-image {
+  height: 20%;
+  width: 20%;
+  margin-top: 20px;
+}
+
+.MERN-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Solving-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hr {
+  margin: 50px auto 50px auto;
+  height: 1px;
+  width: 8%;
+  background-color: grey;
+  border-style: double;
+}
+
+
+.Get-In-Touch {
+  margin: 20px 0 20px 0;
+}
+
+.Contact-Details-description {
+  margin: 15px 0 15px 0;
+}
